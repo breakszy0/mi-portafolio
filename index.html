@@ -3,67 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alfredo Ibaceta | Portafolio</title>
-    <!-- Esto conecta tu diseño. El archivo debe llamarse style.css -->
+    <title>Portafolio | Alfredo Ibaceta</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Inicio / Hero Section -->
-    <header class="hero">
-        <img src="perfil.png" alt="Foto de Alfredo Ibaceta" class="profile-pic">
-        <h1>Alfredo Ibaceta</h1>
-        <h2>Estudiante de Ingeniería Informática | Desarrollador</h2>
-        <div class="social-links">
-            <a href="https://github.com/breakszy0" target="_blank">GitHub</a>
-            <a href="mailto:squadtxr@gmail.com">Contacto</a>
-        </div>
+    <header>
+        <nav>
+            <div class="logo">Alfredo Ibaceta</div>
+            <div class="social-links">
+                <a href="https://github.com/breakszy0" target="_blank">GitHub</a>
+                <a href="mailto:squadtxr@gmail.com">Contacto</a>
+            </div>
+        </nav>
     </header>
 
-    <!-- Sobre Mí -->
-    <section class="about">
-        <h3>Sobre Mí</h3>
-        <p>
-            Soy un estudiante de Ingeniería Informática radicado en Puerto Montt, enfocado en el desarrollo de software y la administración de bases de datos. Me apasiona construir sistemas eficientes y escalables, integrando tecnologías tanto en el frontend como en el backend. Siempre busco optimizar procesos y aprender nuevas herramientas que me permitan resolver problemas complejos.
-        </p>
-    </section>
+    <main>
+        <section class="hero">
+            <img src="perfil.png" alt="Foto de Alfredo Ibaceta" class="profile-pic">
+            <h1>Hola, soy Alfredo</h1>
+            <h2>Estudiante de Ingeniería Informática</h2>
+            <p>Desarrollador enfocado en la creación de interfaces web frontend y la estructuración robusta de bases de datos relacionales.</p>
+        </section>
 
-    <!-- Habilidades Técnicas -->
-    <section class="skills">
-        <h3>Stack Tecnológico</h3>
-        <div class="skills-grid">
-            <span class="skill-tag">JavaScript</span>
-            <span class="skill-tag">React</span>
-            <span class="skill-tag">SQL & PL/SQL</span>
-            <span class="skill-tag">Docker</span>
-            <span class="skill-tag">Git</span>
-            <span class="skill-tag">HTML & CSS</span>
-        </div>
-    </section>
-
-    <!-- Proyectos -->
-    <section class="projects">
-        <h3>Proyectos Destacados</h3>
-        <div class="projects-grid">
-            
-            <!-- Proyecto Único: Página de Zapatillas -->
-            <div class="project-card single-card">
-                <h4>Catálogo Web de Zapatillas</h4>
-                <p>Desarrollo de interfaz para una tienda de zapatillas, estructurando el maquetado y presentación de productos.</p>
-                <div class="tech-stack">HTML, CSS, JavaScript</div>
-                
-                <!-- Botones del proyecto -->
-                <div class="project-links">
-                    <a href="https://github.com/breakszy0/PaginaWebZapatillas" class="btn btn-outline" target="_blank">Código</a>
-                    <a href="https://breakszy0.github.io/PaginaWebZapatillas/" class="btn" target="_blank">Ver Página</a>
-                </div>
+        <section class="skills">
+            <h3>Tecnologías y Herramientas</h3>
+            <div class="skills-container">
+                <span class="skill-tag">HTML5 & CSS3</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">Oracle SQL & PL/SQL</span>
+                <span class="skill-tag">Docker</span>
+                <span class="skill-tag">Git & GitHub</span>
             </div>
+        </section>
 
-        </div>
-    </section>
-    
+        <section class="projects">
+            <h3>Proyectos Destacados</h3>
+            <div class="projects-grid">
+                
+                <!-- Proyecto 1: Página de Zapatillas -->
+                <div class="project-card">
+                    <h4>Catálogo Web de Zapatillas</h4>
+                    <p>Desarrollo de interfaz para una tienda de zapatillas, aplicando estructuración semántica, CSS modular y validaciones de formularios con JavaScript en tiempo real.</p>
+                    <div class="tech-stack">HTML, CSS, JavaScript</div>
+                    <div class="project-links">
+                        <a href="https://github.com/breakszy0/PaginaWebZapatillas" class="btn btn-outline" target="_blank">Código</a>
+                        <a href="https://breakszy0.github.io/PaginaWebZapatillas/" class="btn" target="_blank">Ver Página</a>
+                    </div>
+                </div>
+
+                <!-- Proyecto 2: Base de Datos -->
+                <div class="project-card">
+                    <h4>Arquitectura de Base de Datos</h4>
+                    <p>Diseño de modelo relacional e implementación de procedimientos almacenados en Oracle PL/SQL para automatizar el control de inventario y ventas de forma segura.</p>
+                    <div class="tech-stack">Oracle SQL, PL/SQL, Modelado de Datos</div>
+                    <div class="project-links">
+                        <a href="https://github.com/breakszy0/Modelado-SQL-PLSQL" class="btn btn-outline" target="_blank">Ver Código</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
     <footer>
-        <p>© 2026 Alfredo Ibaceta. Hecho desde Puerto Montt.</p>
+        <p>&copy; 2026 Alfredo Ibaceta. Portafolio de Ingeniería Informática.</p>
     </footer>
-
 </body>
 </html>
